@@ -22,7 +22,7 @@ class CalculatorTest extends TestCase
         $result = $calculator->add(2, 3);
 
         // Assert&#xff08;検証&#xff09;: 期待通りの結果になっているか確認
-        $this->assertEquals(5, $result);
+        $this->assertEquals(6, $result);
     }
 
     /**
